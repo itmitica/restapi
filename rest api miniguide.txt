@@ -1,0 +1,60 @@
+What is REST?
+-------------
+Representational state transfer.
+An architectural pattern for interacting with resources via HTTP methods.
+Describes six constraints:
+    Uniform Interface
+    Stateless
+    Cacheable
+    Client-Server
+    Layered System
+    Code on Demand (optional)
+
+
+What is API?
+------------
+Application Programming Interfaces.
+Set of functions that provides some business or technical capability.
+Enable software to interact with other software through exposed functionality.
+Can be called by applications by using a defined protocol.
+
+
+What is representation?
+-----------------------
+Consists of data, metadata describing the data, and, on occasion, metadata to describe the metadata.
+May indicate:
+    the current state of the requested resource
+    the desired state for the requested resource
+    the value of some other resource
+    some error condition for a response
+
+What is state?
+--------------
+Application state or resource state.
+Clients handle application state, servers handle resource state.
+
+
+What are resources?
+-------------------
+A conceptual mapping to a set of entities representing services or data.
+
+
+What is REST API?
+-----------------
+Manipulation of resources through representations.
+Is structured according to the principles of Representational State Transfer.
+Typically uses the JSON data format.
+
+
+What are HTTP methods?
+----------------------
+
+
+
+Links?
+------
+http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+https://www.ibm.com/developerworks/library/ws-restful/
+https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/capim_overview_orgsprodsplansapis.html
+http://apiglossary.com/
+https://documentation.uts.nlm.nih.gov/rest/home.html
