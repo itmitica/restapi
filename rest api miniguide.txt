@@ -34,11 +34,6 @@ Application state or resource state.
 Clients handle application state, servers handle resource state.
 
 
-What are resources?
--------------------
-A conceptual mapping to a set of entities representing services or data.
-
-
 What is REST API?
 -----------------
 Manipulation of resources through representations.
@@ -46,9 +41,21 @@ Is structured according to the principles of Representational State Transfer.
 Typically uses the JSON data format.
 
 
+What are resources?
+-------------------
+A conceptual mapping to a set of entities representing services or data.
+
+
 What are HTTP methods?
 ----------------------
 
+
+What are endpoints?
+-------------------
+
+
+What are paths?
+---------------
 
 
 Links?
