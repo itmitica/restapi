@@ -1,2 +1,2 @@
 # restapi
-![ScreenShot01](rest api miniguide.png)
+![ScreenShot01](screenshot01.png)
