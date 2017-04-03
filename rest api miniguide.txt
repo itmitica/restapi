@@ -46,16 +46,25 @@ What are resources?
 A conceptual mapping to a set of entities representing services or data.
 
 
-What are HTTP methods?
-----------------------
-
 
 What are endpoints?
 -------------------
 
 
+
 What are paths?
 ---------------
+
+
+
+What are routes?
+----------------
+
+
+
+What are HTTP methods?
+----------------------
+HTTP verbs: GET, POST, PUT, PATCH, HEAD, OPTIONS.
 
 
 Links?
