@@ -28,6 +28,7 @@ May indicate:
     the value of some other resource
     some error condition for a response
 
+
 What is state?
 --------------
 Application state or resource state.
