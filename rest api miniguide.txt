@@ -46,20 +46,35 @@ What are resources?
 A conceptual mapping to a set of entities representing services or data.
 
 
+What are resource paths?
+------------------------
+The resource path should signify what resource the endpoint is associated with.
+The resource path URI includes: domain, version, namespace, route.
 
-What are endpoints?
--------------------
 
-
-
-What are paths?
----------------
-
+What are path variables?
+------------------------
+Path variables enable dynamic routes.
 
 
 What are routes?
 ----------------
+A route is the “name” you use to access endpoints in resource paths, used in the URL.
+A route can have multiple endpoints associated with it, and which is used depends on the HTTP verb:
+  one endpoint: a GET client request on a resource/route may trigger a get_item method on server
+  another endpoint: a PUT client request on the same resource/route may trigger a update_item method on server
+  another endpoint: a DELETE client request on the same resource/route may trigger a delete_item method on server
 
+
+What are endpoints?
+-------------------
+Endpoints are functions available through the API, accessible through a route, following a resource path.
+Endpoints are the destination that a route needs to map to.
+For any given route, you could have a number of different endpoints registered to it.
+A route can have multiple endpoints associated with it, and which is used depends on the HTTP verb:
+  one endpoint: a GET client request on a resource/route may trigger a get_item method on server
+  another endpoint: a PUT client request on the same resource/route may trigger a update_item method on server
+  another endpoint: a DELETE client request on the resource/route may trigger a delete_item method on server
 
 
 What are HTTP methods?
@@ -74,3 +89,4 @@ https://www.ibm.com/developerworks/library/ws-restful/
 https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/capim_overview_orgsprodsplansapis.html
 http://apiglossary.com/
 https://documentation.uts.nlm.nih.gov/rest/home.html
+https://developer.wordpress.org/rest-api/extending-the-rest-api/routes-and-endpoints/
