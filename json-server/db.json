@@ -1,9 +1,76 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "taxpayers": [
+        {
+            "id": "1",
+            "tin": "11223344",
+            "name": "IT Mitica",
+            "name2": "blank",
+            "address": "str. Tarancutei nr. 1",
+            "address2": "Falticeni jud. Suceava",
+            "title_prefix": {
+                "id": "1",
+                "name": "Societate Comerciala",
+                "acronym": "SC"
+            },
+            "title_suffix": {
+                "id": "1",
+                "name": "Societate cu Raspundere Limitata",
+                "acronym": "SRL"
+            },
+            "country": {
+                "id": "1",
+                "name": "Romania",
+                "acronym": "ROU"
+            },
+            "phone": [
+                {
+                    "id": "1",
+                    "taxpayer_id": "1",
+                    "contact_type": {
+                        "id": "1",
+                        "name": "vanzari"
+                    },
+                    "number": "1111 111 11"
+                },
+                {
+                    "id": "2",
+                    "taxpayer_id": "1",
+                    "contact_type": {
+                        "id": "2",
+                        "name": "secretariat"
+                    },
+                    "number": "2222 222 22"
+                }
+            ],
+            "link": [
+                {
+                    "id": "1",
+                    "taxpayer_id": "1",
+                    "online_platform": {
+                        "id": "1",
+                        "name": "email"
+                    },
+                    "address": "itmitica@gmail.com"
+                },
+                {
+                    "id": "2",
+                    "taxpayer_id": "1",
+                    "online_platform": {
+                        "id": "2",
+                        "name": "facebook"
+                    },
+                    "address": "facebook.com/itmitica"
+                },
+                {
+                    "id": "3",
+                    "taxpayer_id": "1",
+                    "online_platform": {
+                        "id": "3",
+                        "name": "twitter"
+                    },
+                    "address": "twitter.com/itmitica"
+                }
+            ]
+        }
+    ]
 }
